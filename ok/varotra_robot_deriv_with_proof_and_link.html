@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varotra Robot Deriv</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        header {
+            background-color: #0044cc;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #ffffff;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            padding: 10px 0;
+            background-color: #222222;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 15px;
+            border: 1px solid #0044cc;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #0044cc;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .products, .earnings {
+            display: flex;
+            gap: 20px;
+            justify-content: space-around;
+        }
+        .card {
+            background-color: #333333;
+            border: 1px solid #0044cc;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            width: 30%;
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+        .footer {
+            background-color: #222222;
+            text-align: center;
+            padding: 10px;
+        }
+        .footer p {
+            margin: 5px 0;
+        }
+        .hidden {
+            display: none;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        form input, form button {
+            padding: 10px;
+            border: 1px solid #0044cc;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #0044cc;
+            color: white;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #0033aa;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Varotra Robot Deriv</h1>
+</header>
+
+<nav>
+    <a href="#products">Robots</a>
+    <a href="#earnings">Vola Azahoana</a>
+    <a href="#contact">Contact</a>
+</nav>
+<img src="Robot .jpg"
+<div class="container">
+    <section id="products" class="section">
+        <h2>Lisitra ny Robots</h2>
+        <div class="products">
+            <div class="card">
+                <h3>Robot Niveau 1</h3>
+                <p>Vidiny: 5,000 Ar</p>
+                <button onclick="choosePayment('Robot Niveau 1')">HIVIDY</button>
+            </div>
+            <div class="card">
+                <h3>Robot Niveau 2</h3>
+                <p>Vidiny: 10,000 Ar</p>
+                <button onclick="choosePayment('Robot Niveau 2')">HIVIDY</button>
+            </div>
+            <div class="card">
+                <h3>Robot Niveau 3</h3>
+                <p>Vidiny: 20,000 Ar</p>
+                <button onclick="choosePayment('Robot Niveau 3')">HIVIDY</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="earnings" class="section">
+        <h2>Ny vola ho azonao isan'andro</h2>
+        <div class="earnings">
+            <div class="card">
+                <h3>Robot 1</h3>
+                <p>0.5 USD/andro (Depot: 10 USD)</p>
+            </div>
+            <div class="card">
+                <h3>Robot 2</h3>
+                <p>2 USD/andro (Depot: 15 USD)</p>
+            </div>
+            <div class="card">
+                <h3>Robot 3</h3>
+                <p>4 USD/andro (Depot: 20 USD)</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="section">
+
+        <h1>FANAZAVANA MAKASIKA NY ROBOT </h1><br>
+        <p>Bot trading dia rindrambaiko mandeha ho azy izay natao hanampy mpampiasa amin'ny fanaovana varotra (trading) amin'ny tsena ara-bola na crypto. Izy io dia mamakafaka ny angona amin'ny fotoana tena izy, miasa mifototra amin'ny algorithme napetraka, ary manao varotra araka ny fepetra na ny fivoaran'ny tsena.
+
+           <h2>Tombony lehibe amin'ny bot trading></h2><br>
+            
+            1. Haingam-pandeha: Manatanteraka varotra ao anatin'ny segondra na milisegondra vitsy, izay mety hanomezana tombony rehefa miova haingana ny tsena.<br>
+            2. Fanafoanana ny fihetseham-po: Tsy voatosiky ny tahotra na ny fitakiana ny bot, ka manatanteraka varotra araka ny fepetra napetraka.<br>
+            3. Fahombiazan'ny fotoana: Mamela anao hihazona varotra 24/7, na dia tsy eo aza ianao.<br>
+            4. Fanadihadiana lalina: Mamaky modely sarotra na angon-drakitra lehibe amin'ny fotoana tena izy.<br>
+            5. Fanamboarana mora: Azonao atao ny mametraka fitsipika na algorithme mifanaraka amin'ny fomba varotrao.<br>
+            
+            
+            <h2> Market-Making Bots:</h2><br>
+
+            Mametraka baikon'ny fividianana sy fivarotana eo akaikin'ny vidin'ny tsena ankehitriny mba hanararaotra ny fiovaovan'ny vidiny madinidinika.<br>
+            1. Arbitrage Bots:
+             Mitady fahasamihafana amin'ny vidin'ny crypto na fananana ara-bola eo amin'ny tsena samihafa, ary manararaotra izany.<br>
+            2. Trend-Following Bots:
+             Mifototra amin'ny famakafakana ny fironana (trend) amin'ny tsena mba hanatanteraka varotra mifanaraka amin'ny fihetsika mivoatra.<br>
+            3. Scalping Bots:
+             Mikendry tombony kely amin'ny varotra maro atao ao anatin'ny fotoana fohy, matetika eo ambany segondra na minitra.<br>
+            4. Custom Bots:
+             Bots natao manokana araka ny filàn'ny mpampiasa, miaraka amin'ny algorithme manokana.<br>
+           
+             <h2>DATA COLLECTION</h2><br>
+
+            1. Fanangonana angon-drakitra (Data Collection):<br>
+             Maka angon-drakitra momba ny tsena mivantana ny bot (toy ny vidin'ny crypto, ny volume, ny fironana, sns).<br>
+            2. Famakafakana (Analysis):<br>
+             Mampiasa ny angon-drakitra ho an'ny fanadihadiana teknika sy ny famaritana ny fotoana mety hanaovana varotra.<br>
+            3. Fandraisana fanapahan-kevitra (Decision Making):<br>
+             Raha mahafeno fepetra ny tsena dia manatanteraka varotra mifototra amin'ny algorithme napetraka.<br>
+            4. Fanatanterahana (Execution):<br>
+             Manatanteraka ny baiko eny amin'ny tsena mivantana (ohatra: fividianana na fivarotana crypto).<br>
+            fahaiza-manao sy fitaovana ilaina amin'ny fampiasana bot trading
+            
+            5. Fahaizana momba ny varotra (Trading Knowledge):<br>
+             Ny fahatakarana ny tsena dia ilaina na dia ho an'ny bot aza mba hametrahana tsara ny fitsipika.<br>
+            6. Famolavolana Algorithme:<br>
+             Raha mamorona bot anao manokana ianao, dia mila fahalalana amin'ny fandaharana, toy ny Python na JavaScript.<br>
+            7. Fitaovana matanjaka:<br>
+            Bots sasany mila fifandraisana matanjaka amin'ny Internet sy solosaina mahery.</p>
+    </section><br>
+<br>
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p> MANEFA POROFO FANAMARINANA NY FIVIDIANANA ROBOT AMIN'NY EMAIL: <a href="mailto:horlandobe@gmail.com">EMAIL</a></p><br>
+        <p>MANEFA POROFO FANAMARINANA NY FIVIDIANANA ROBOT AMIN'NY EMAIL:<a href="https://wa.me/261323911654">WHATSAPP</a></p><br><br>
+    </section>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2024 Varotra Robot Deriv</p>
+</footer>
+
+<script>
+    function choosePayment(robot) {
+        const paymentMethod = prompt(`Hividy ${robot} amin'ny fomba ahoana? 
+1: Mobile Money
+2: Payeer`, "1");
+        if (paymentMethod === "1") {
+            alert("Miaraba tompoko, toy izao ny lamina amin'ny fividianana robot. Misafidiana iray amin'ireto operateur ireto. Rehefa lasa ny vola dia manasa anao izahay mba handefa porofo manamariana izany. Mankanesa ao amin'ny service client ao amin'ny pejy farany ambany,azonao atao atao mandefa izany amin'ny EMAIL na amina'ny WHATSAPP. Ireto ny laharana  <br> 0323911654, 0384557584, 0333635111");
+        } else if (paymentMethod === "2") {
+            alert("Safidio ny Payeer ary ampidiro ny vola amin'ny kaonty: P1114188343.");
+        } else {
+            alert("Fomba fandoavana tsy fantatra. Azafady, avereno indray.");
+        }
+    }
+
+    function sendProof(event) {
+        event.preventDefault();
+        alert("Rehefa nalefanao ny vola dia azonao atao ny mifandray aminay amin'ny alalan'ny contact izay efa napetraka eo ambany io, mifandray amin'ny mailaka na amin'ny whatsapp mba hanamarinana ny paiment nataony.");
+    }
+</script>
+
+</body>
+</html>
